@@ -18,7 +18,7 @@ $ ./autogen.sh\
 $ ./configure\
 $ make\
 $ make install\
-$ export LD_LIBRARY_PATH= /path/liblbfgs-1.10/lib/.libs:$LD_LIBRARY_PATH\
+$ export LD_LIBRARY_PATH= /path/liblbfgs-1.10/lib/.libs:$LD_LIBRARY_PATH
 
 **Run HRePML**
 
@@ -27,7 +27,7 @@ For Intel CPU users, blas and lapack libraries can be linked to optimized math r
 g++ -I /path/liblbfgs-1.10/include HRePML-Linux.cpp -lmkl_gf_lp64 -lmkl_sequential -lmkl_core -llbfgs -o output
 
 2.	./output genofile phenofile kinshipfile covariatesfile resultfile timefile\
-Note: (1). only support .csv file format at present; (2). the first column of covariatesfile is 1 column vector
+Note: (1). only support **.csv** file format at present; (2). the first column of covariatesfile is **1** column vector
 
 
 
