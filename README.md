@@ -1,4 +1,4 @@
-# A fast C++ program to perform GWAS with hybrid of restricted and penalized maximum likelihood method
+# HRePML: A fast C++ program to perform GWAS with hybrid of restricted and penalized maximum likelihood method
 
 # Linux Version:
 (Using Ubuntu 20.04 LTS system as example.)
