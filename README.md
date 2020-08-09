@@ -43,7 +43,7 @@ Refer and download clapack package from http://icl.cs.utk.edu/lapack-for-windows
 Download and decompress boost_1_73_0.zip file from https://www.boost.org/users/history/version_1_73_0.html
 
 3.	Install libLBFGS\
-Download source code from http://www.chokkan.org/software/liblbfgs/ and then decompression, or directly download from our folder ../thirdParty/liblbfgs-1.10.tar.gz
+Download source code from http://www.chokkan.org/software/liblbfgs/ and then decompression, or directly download from our folder ../thirdParty/liblbfgs-1.10.tar.gz\
 Find /path/liblbfgs-1.10/lbfgs.sln file, open this file with Visual Studio 2019 and then build file, note whether debug or release mode.\
 In windows system, there are several things to take care about. And especially focus on configure .header pathway and .lib pathway in Visual Studio 2019. A small neglect may cause the operation to fail. 
 
