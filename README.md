@@ -50,4 +50,4 @@ In windows system, there are several things to take care about. And especially f
 Line 721-727: The pathway and name of variables “filegene, filepheno, filekinship, filefix, outResults and outTime” can be changed flexibly by users.
 
 **Please refer:\
-Ren W, Liang Z, He S, Xiao J. Hybrid of Restricted and Penalized Maximum Likelihood Method for Efficient Genome-Wide Association Study. Genes. 2020; 11(11):1286;  https://doi.org/10.3390/genes11111286.**
+Ren W, Liang Z, He S, Xiao J. Hybrid of Restricted and Penalized Maximum Likelihood Method for Efficient Genome-Wide Association Study. Genes. 2020; 11(11):1286.**
