@@ -734,10 +734,10 @@ int main(int argc, char **argv)
 	string outTime = argv[6];
 	// repeatTime is set by 1 for real data analysis, and it can be changed as repeat times for simulated study
 	int repeatTime = 1;
-	vector<vector<double>> fixmat = ReadFile(filefix);
 	vector<vector<double>> geno = ReadFile(filegene);
 	vector<vector<double>> pheno = ReadFile(filepheno);
 	vector<vector<double>> kins = ReadFile(filekinship);
+	vector<vector<double>> fixmat = ReadFile(filefix);
 
 	t1 = clock();
 
@@ -831,7 +831,7 @@ int main(int argc, char **argv)
 		h1 = xu;
 
 		for (uint j = 0; j < nrgeno; j++) {
-			yy[j][0] = pheno[ii * nrgeno + j][0];
+			yy[j][0] = pheno[j][ii];
 			//cout << yy[j][0] << endl;
 		}
 		yu = MatrixMultiply(uu, yy);
